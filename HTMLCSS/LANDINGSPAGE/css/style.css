@@ -1,0 +1,28 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.header {
+	background: black;
+	display: flex;
+	height: 80px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px;
+}
+
+.headerTitle {
+	color: white;
+	text-transform: uppercase;
+}
+
+.headerButton {
+	text-transform: uppercase;
+}
