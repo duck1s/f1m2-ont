@@ -36,6 +36,43 @@ body {
 	letter-spacing: 2px;
 }
 
+.headerButton:hover {
+	cursor: pointer;
+}
+
+.mainNavigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+	/* Extra voor animatie */
+	opacity: 0;
+	transition: 0.2s;
+}
+
+.mainNavigationList {
+	list-style: none;
+}
+
+.mainNavigationListItem {
+	color: white;
+	font-size: 350%;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.mainNavigationListItem a {
+	color: white;
+	text-decoration: none;
+}
+
 .bigFigure {
 	width: 100%;
 	height: 110vh;
