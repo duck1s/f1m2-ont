@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	font-size: 20px;
+	font-size: 1rem;
 	font-family: sans-serif;
 }
 
@@ -18,11 +18,11 @@ header,
 footer {
 	background: #222831;
 	color: white;
-	height: 60px;
+	height: 3.75rem;
 }
 
 main {
-	padding: 40px;
+	padding: 2.5rem;
 	min-height: 100vh;
 	width: 60vw;
 	margin: 0 auto;
@@ -50,7 +50,7 @@ nav ul li a {
 	width: 100%;
 	height: 100%;
 	display: block;
-	line-height: 60px;
+	line-height: 3.75rem;
 	text-align: center;
 }
 
@@ -69,27 +69,27 @@ li:hover {
 
 h1 {
 	font-size: 250%;
-	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
 	border-bottom: 1px solid black;
 }
 
 section {
 	width: 100%;
-	padding: 40px;
+	padding: 2.5rem;
 }
 
 article {
 	width: 100%;
 	margin: 0 auto;
-	padding: 40px;
+	padding: 2.5rem;
 }
 
 .box {
 	width: 100%;
-	height: 400px;
+	height: 25rem;
 	position: relative;
 	padding: 0;
-	margin-bottom: 40px;
+	margin-bottom: 2.5rem;
 }
 
 .box figure {
@@ -112,7 +112,7 @@ article {
 	position: absolute;
 	bottom: 0%;
 	left: 0%;
-	padding: 40px;
+	padding: 2.5rem;
 	color: white;
 	width: 100%;
 	height: 100%;
@@ -134,7 +134,7 @@ img:hover {
 }
 
 p {
-	margin-bottom: 40px;
+	margin-bottom: 2.5rem;
 }
 
 p:last-of-type {
@@ -142,8 +142,8 @@ p:last-of-type {
 }
 
 figure {
-	margin-bottom: 40px;
-	margin-top: 40px;
+	margin-bottom: 2.5rem;
+	margin-top: 2.5rem;
 }
 
 figcaption {
@@ -153,18 +153,18 @@ figcaption {
 
 audio {
 	display: block;
-	margin-top: 20px;
+	margin-top: 1.25rem;
 }
 
 video {
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 5rem;
 	border-radius: 5px;
 }
 
 .top {
-	width: 80px;
-	height: 80px;
+	width: 5rem;
+	height: 5rem;
 	background: #222831;
 	border: none;
 	font-size: 150%;
@@ -172,8 +172,8 @@ video {
 	color: white;
 	border-radius: 5px;
 	position: fixed;
-	bottom: 120px;
-	right: 120px;
+	bottom: 7.5rem;
+	right: 7.5rem;
 	text-decoration: none;
 	display: flex;
 	justify-content: center;
@@ -181,24 +181,24 @@ video {
 }
 
 footer {
-	height: 60px;
+	height: 3.75rem;
 	display: flex;
 	align-items: center;
 }
 
 footer > p {
-	width: 60vw;
+	width: 80vw;
 	margin: 0 auto;
-	padding-left: 80px;
+	padding-left: 5rem;
 }
 
 @media screen and (max-width: 1000px) {
 	main {
-		width: 80vw;
+		width: 5rem;
 	}
 
 	footer p {
-		width: 80vw;
+		width: 5rem;
 	}
 
 	img:hover {
@@ -206,10 +206,10 @@ footer > p {
 	}
 
 	.top {
-		width: 60px;
-		height: 60px;
-		bottom: 60px;
-		right: 60px;
+		width: 3.75rem;
+		height: 3.75rem;
+		bottom: 3.75rem;
+		right: 3.75rem;
 	}
 
 	header {
@@ -227,12 +227,12 @@ footer > p {
 
 @media screen and (max-width: 600px) {
 	body {
-		font-size: 16px;
+		font-size: 1rem;
 	}
 
 	main {
 		width: 100vw;
-		padding: 20px;
+		padding: 1.25rem;
 	}
 
 	h1 {
@@ -241,6 +241,6 @@ footer > p {
 
 	footer > p {
 		width: 100vw;
-		padding-left: 60px;
+		padding-left: 3.75rem;
 	}
 }
